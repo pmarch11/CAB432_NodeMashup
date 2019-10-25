@@ -6,8 +6,8 @@ const router = express.Router();
 
 
 //setting required variables for spotify auth
-var client_id = '98a7384e705e40879ce65215ade1b1fe'; // Your client id
-var client_secret = ''; // Your secret id HERE
+var client_id = 'ZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Your client id
+var client_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Your secret
 var redirect_uri = 'http://localhost:3000/login/callback'; // Your redirect uri
 var stateKey = 'spotify_auth_state';
 

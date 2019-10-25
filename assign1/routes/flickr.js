@@ -27,7 +27,7 @@ router.get('/:query/:title', (req, res) => {
 //global const for flickr options
 const flickr = {
 	method: 'flickr.photos.search',
-	api_key: "9b2744f5f6418899d7092b524a07f61d",
+	api_key: "XXXXXXXXXXXXXXXXXXX",
 	format: "json",
 	media: "photos",
 	nojsoncallback: 1

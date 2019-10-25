@@ -37,7 +37,7 @@ router.get('/:query', (req, res) => {
 
 //const for themovieDB options
 const tmdb ={
-	api_key: "39f8f601fa29e7642fcc42f19c5674ce",
+	api_key: "XXXXXXXXXXXXXXXXXXX",
 	format: "json",
 	nojsoncallback: 1,
 	hostname: 'api.themoviedb.org/3',

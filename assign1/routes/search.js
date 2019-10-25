@@ -36,7 +36,7 @@ router.post('/', (req, res, next) => {
 
 //const for themovieDB options
 const tmdb ={
-	api_key: "39f8f601fa29e7642fcc42f19c5674ce",
+	api_key: "XXXXXXXXXXXXXXXXXXX",
 	format: "json",
 	nojsoncallback: 1
 }
@@ -65,7 +65,7 @@ function createConfig(){
 	var options = {
 		uri: 'https://api.themoviedb.org/3/configuration?api_key=',
 		qs:{
-			api_key : '39f8f601fa29e7642fcc42f19c5674ce'
+			api_key : 'XXXXXXXXXXXXXXXXXXX'
 		}
 	};
 
